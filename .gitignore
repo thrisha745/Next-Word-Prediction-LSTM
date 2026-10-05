@@ -1,0 +1,75 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# TensorFlow / Keras temporary files
+
+*.h5.tmp
+*.keras.tmp
+
+# TensorFlow logs
+
+logs/
+tensorboard_logs/
+
+# OS generated files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+
+.vscode/
+.idea/
+
+# Python distribution files
+
+*.egg-info/
+dist/
+build/
+
+# Temporary files
+
+*.tmp
+*.temp
+*.log
+
+# Local datasets
+
+*.csv
+*.xlsx
+
+# Secrets and local configuration
+
+.env
+*.secret
+
+````
+
+### Your folder should now look like this
+
+```text
+dlrl_proj
+│
+├── next_word_lstm.ipynb
+├── next_word_lstm.keras
+├── tokenizer.json
+├── config.json
+├── README.md
+└── .gitignore
+````
+
